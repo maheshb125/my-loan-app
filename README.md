@@ -1,10 +1,16 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 ## About My Loan App
 
 Loan app for best services
 
-### Requirements 
+--------
+
+This app can configure using follwong two options
+
+1. Docker
+2. XAMPP
+
+### 1. Docker 
 
 > Install Docker
 
@@ -36,7 +42,12 @@ docker-compose restart db
 
 > http://localhost:8000/
 
-### Xampp
+
+---
+
+## OR 
+
+### 2. Xampp
 
 - `git clone https://github.com/maheshb125/my-loan-app.git`
 - `cd my-loan-app`
@@ -58,3 +69,5 @@ docker-compose restart db
 #### RUN Application
 
 -  `php artisan serve`
+
+> http://localhost:8000/
