@@ -51,7 +51,7 @@ docker-compose restart db
 
 - `git clone https://github.com/maheshb125/my-loan-app.git`
 - `cd my-loan-app`
-- Change .env DB Connection
+- Setup .env file
 - `php artisan key:generate`
 - `composer install`
 - `php artisan migrate`
