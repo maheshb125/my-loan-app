@@ -22,4 +22,3 @@ yarn-error.log
 /.gitattributes
 /composer.lock
 /package-lock.json
-public
